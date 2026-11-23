@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c2a43">
+  <meta name="description" content="Xitoydan Shanghai Trailer pritsep va yarim tirkamalar. Ism va telefoningizni qoldiring: operatorimiz model, narx va yetkazib berish shartlarini tushuntiradi.">
+  <title>Shanghai Trailer — Pritsep narxini bilish</title>
+  <style>
+    :root{--ink:#102d46;--ink2:#25475e;--muted:#607487;--teal:#128e85;--teal-pale:#e8f7f3;--orange:#ff7248;--orange2:#f05e32;--line:#dce6ed;--bg:#f3f7f9;--white:#fff;--shadow:0 22px 70px rgba(14,48,71,.13)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}button,input{font:inherit}button{cursor:pointer}a{color:inherit}svg{display:block}img{display:block;max-width:100%}::selection{background:#afe9dc;color:#0b2a43}
+    .container{max-width:1190px;margin:0 auto;padding:0 26px}
+    .topbar{background:#fff;border-bottom:1px solid var(--line);position:relative;z-index:10}
+    .topbar-inner{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .logo{display:flex;align-items:center;gap:12px;text-decoration:none;line-height:1.1;min-width:0}
+    .logo-icon{width:40px;height:40px;border-radius:12px;background:var(--ink);display:grid;place-items:center;color:#fff;flex-shrink:0}
+    .logo-name{display:block;font-weight:900;font-size:16px;letter-spacing:.045em;white-space:nowrap}.logo-name b{color:var(--teal)}.logo-sub{display:block;margin-top:4px;color:#91a2ae;font-size:10px;font-weight:750;letter-spacing:.19em}
+    .top-actions{display:flex;align-items:center;gap:20px}.phone-link{display:flex;align-items:center;gap:9px;text-decoration:none;font-weight:800;font-size:15px;white-space:nowrap}.phone-link svg{color:var(--teal)}.lang-switch{background:#f0f5f7;padding:4px;border-radius:10px;display:flex;gap:2px}.lang-switch button{border:0;background:transparent;color:#7f929e;border-radius:8px;font-size:12px;font-weight:850;padding:8px 11px}.lang-switch button.active{background:#fff;color:var(--ink);box-shadow:0 2px 7px rgba(13,49,68,.1)}
+    .hero{padding:56px 0 62px;position:relative;overflow:hidden;background:radial-gradient(circle at 12% 30%,rgba(24,155,141,.09),transparent 32%),linear-gradient(155deg,#f9fcfd,#f0f6f8 70%)}
+    .hero::after{content:"";width:530px;height:530px;border-radius:50%;border:1px solid rgba(15,142,131,.1);position:absolute;right:-250px;top:-280px;pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(395px,.88fr);align-items:start;gap:clamp(38px,5vw,85px);position:relative;z-index:1}
+    .copy{padding:19px 0 0}.eyebrow{display:inline-flex;align-items:center;gap:9px;background:var(--teal-pale);color:#087c72;font-size:11px;letter-spacing:.055em;font-weight:850;text-transform:uppercase;padding:10px 13px;border-radius:50px}.eyebrow .dot{height:7px;width:7px;border-radius:50%;background:#14a58c;box-shadow:0 0 0 4px rgba(20,165,140,.12)}
+    h1{margin:23px 0 19px;font-size:clamp(37px,4.3vw,58px);line-height:1.105;letter-spacing:-.052em;font-weight:900;max-width:615px}h1 .accent{color:var(--teal)}
+    .hero-desc{font-size:17px;line-height:1.7;color:#526c7e;max-width:480px;margin:0 0 27px}.hero-desc b{color:var(--ink);font-weight:800}
+    .mini-features{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}.mini-features span{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:12px;color:#3c6473;background:#fff;border:1px solid #e3edf0;padding:9px 11px;border-radius:9px}.mini-features svg{color:var(--teal)}
+    .visual{height:194px;position:relative;margin-top:27px;border-radius:19px;overflow:hidden;background:linear-gradient(120deg,#143b55 0%,#0d2d45 62%,#123b54 100%);border:1px solid rgba(14,55,76,.15)}
+    .visual::before{content:"";position:absolute;inset:0;opacity:.18;background:repeating-linear-gradient(135deg,transparent 0,transparent 33px,#5795aa 34px,#5795aa 35px)}.visual::after{content:"";height:2px;left:28px;right:28px;bottom:28px;position:absolute;background:linear-gradient(90deg,transparent,#7391a3 25%,#7391a3 75%,transparent)}
+    .visual-top{position:absolute;left:24px;top:19px;color:#9bc2d0;font-size:10px;letter-spacing:.17em;font-weight:900}.visual-photo{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:26px 18px 0}.visual-photo img{height:94%;max-width:96%;object-fit:contain;mix-blend-mode:screen;opacity:.94;filter:brightness(1.2) contrast(1.1);border-radius:9px}.visual-photo img:where([src=""]){display:none}.truck-svg{position:absolute;width:90%;height:85%;left:5%;top:19%;opacity:.95}
+    .visual .photo-overlay{position:absolute;right:15px;bottom:13px;border:1px solid rgba(255,255,255,.25);border-radius:7px;background:rgba(2,28,45,.7);color:#d3ebed;font-size:10px;font-weight:850;padding:8px 11px;letter-spacing:.1em}
+    .form-card{background:#fff;border:1px solid #e2eaee;border-radius:24px;padding:31px;box-shadow:var(--shadow);position:relative;overflow:hidden}.form-card::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:linear-gradient(90deg,var(--teal),#30c6af)}
+    .form-chip{display:flex;align-items:center;gap:7px;color:#078b7d;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:14px}.form-chip .spark{font-size:16px}
+    h2{margin:0;line-height:1.19;letter-spacing:-.035em}.form-card h2{font-size:29px;max-width:370px}.form-intro{margin:12px 0 23px;color:#6a7d8b;font-size:14px;line-height:1.7}
+    .lead-form{display:grid;gap:15px}.field label{display:block;color:#29475b;font-size:12px;font-weight:850;margin:0 0 8px}.field input{background:#f7fafb;color:var(--ink);height:54px;border-radius:11px;border:1px solid #dbe5eb;width:100%;padding:0 14px;font-size:15px;outline:none;transition:border-color .2s,box-shadow .2s}.field input::placeholder{color:#a6b5bf}.field input:focus{border-color:#26a89d;box-shadow:0 0 0 4px rgba(33,166,150,.10);background:#fff}.field input[aria-invalid="true"]{border-color:#e05b59}
+    .chosen{display:none;background:#eaf8f4;border:1px solid #ccece3;padding:10px 12px;border-radius:10px;color:#206c65;font-size:12px;gap:8px;align-items:center;justify-content:space-between}.chosen.visible{display:flex}.chosen button{border:none;background:transparent;color:#378f84;font-weight:850;font-size:11px;text-decoration:underline}
+    .submit-btn{width:100%;min-height:57px;padding:13px 18px;border:0;border-radius:11px;background:var(--orange);color:#fff;font-size:15px;line-height:1.25;font-weight:900;display:flex;justify-content:center;align-items:center;gap:10px;box-shadow:0 9px 22px rgba(255,113,73,.22);transition:background .2s,transform .2s,box-shadow .2s}.submit-btn:hover:not(:disabled){background:var(--orange2);transform:translateY(-2px);box-shadow:0 12px 24px rgba(255,113,73,.3)}.submit-btn:disabled{opacity:.7;cursor:progress}.submit-btn svg{flex:0 0 auto}
+    .consent{font-size:11px;line-height:1.55;color:#98a5af;text-align:center;margin:0}.form-status{display:none;border-radius:11px;padding:12px 13px;font-size:13px;line-height:1.5}.form-status.show{display:block}.form-status.error{background:#fff1f1;color:#ac3434;border:1px solid #f5d0d0}.form-status.ok{background:#eaf9f4;color:#176e58;border:1px solid #b8e7d5}.field-error{display:none;font-size:11px;margin-top:6px;color:#c94542}.field-error.show{display:block}
+    .form-footer{margin-top:19px;padding-top:19px;border-top:1px solid #edf1f3;display:flex;align-items:center;gap:10px;color:#68818e;font-size:12px;line-height:1.5}.form-footer svg{flex:none;color:var(--teal)}
+    .trust{border-top:1px solid #e7edef;background:#fff}.trust-grid{display:grid;grid-template-columns:repeat(3,1fr)}.trust-item{display:flex;align-items:center;gap:14px;padding:25px 14px 25px 0}.trust-item+ .trust-item{border-left:1px solid var(--line);padding-left:23px}.trust-icon{background:#eaf8f4;color:#128e85;width:47px;height:47px;display:grid;place-items:center;border-radius:12px;flex:none}.trust-item b{font-size:18px;display:block;letter-spacing:-.03em}.trust-item small{display:block;font-size:12px;color:#758c9b;margin-top:4px;line-height:1.35}
+    .models{padding:62px 0 54px}.section-kicker{font-size:11px;color:var(--teal);text-transform:uppercase;letter-spacing:.13em;font-weight:900;margin:0 0 10px}.section-heading{font-size:32px;line-height:1.2;letter-spacing:-.04em}.section-summary{color:#6c8290;max-width:680px;font-size:14px;line-height:1.65;margin:11px 0 23px}
+    .models-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.model{background:#fff;border:1px solid #dfebef;border-radius:14px;padding:17px 16px;display:flex;align-items:center;justify-content:space-between;text-align:left;gap:10px;color:var(--ink);transition:.2s}.model:hover,.model.selected{border-color:#7ed3c4;background:#f8fffc;box-shadow:0 7px 20px rgba(24,89,98,.06);transform:translateY(-1px)}.model-left{display:flex;align-items:center;gap:11px;min-width:0}.model-icon{background:#eaf1f5;display:grid;place-items:center;color:#33738c;border-radius:9px;width:40px;height:40px;flex:none}.model-title{display:block;font-size:14px;font-weight:850;line-height:1.2}.model-sub{display:block;font-size:11px;color:#95a6b1;line-height:1.3;margin-top:3px}.model-arrow{color:#80a1ad;flex:none}
+    .bottom-cta{padding:0 0 60px}.bottom-card{background:#0f354c;border-radius:19px;padding:26px 32px;display:flex;align-items:center;justify-content:space-between;gap:18px;color:#fff;position:relative;overflow:hidden}.bottom-card::after{content:"";position:absolute;width:260px;height:260px;background:rgba(36,183,163,.12);border-radius:50%;right:22%;top:-200px}.bottom-card h2{font-size:21px;letter-spacing:-.025em;margin-bottom:5px}.bottom-card p{font-size:12px;color:#a8c0cc;margin:0;line-height:1.5}.bottom-card button{background:#fff;color:#164258;border:0;border-radius:10px;padding:13px 18px;font-weight:900;white-space:nowrap;font-size:12px;position:relative;z-index:1}
+    .footer{background:#0b293f;color:#c9dce3;padding:25px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}.footer-brand{font-weight:900;font-size:14px;color:#fff}.footer-detail{color:#a9c0ca;font-size:12px;line-height:1.5}.footer-call{color:#fff;font-size:13px;font-weight:850;text-decoration:none}.footer a:hover{text-decoration:underline}
+    .float-cta{display:none;position:fixed;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));z-index:15;border:0;padding:15px;border-radius:12px;background:#ff7248;color:#fff;font-weight:900;box-shadow:0 8px 30px rgba(14,46,67,.22)}.float-cta.visible{display:block}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.honeypot{position:absolute!important;width:1px!important;height:1px!important;opacity:0!important;left:-10000px!important;pointer-events:none!important}
+    @media(max-width:980px){.hero-grid{grid-template-columns:minmax(0,1fr) minmax(330px,.9fr);gap:26px}.form-card{padding:26px}.copy{padding-top:8px}h1{font-size:43px}.visual{height:175px}.trust-item{gap:9px}.trust-item b{font-size:16px}}
+    @media(max-width:740px){.container{padding:0 18px}.topbar-inner{min-height:65px}.logo-icon{width:36px;height:36px;border-radius:10px}.logo-name{font-size:14px}.logo-sub{font-size:8px}.phone-link span{display:none}.top-actions{gap:12px}.phone-link{border:1px solid #e1ebef;border-radius:9px;width:35px;height:35px;justify-content:center}.lang-switch button{padding:7px 9px}.hero{padding:25px 0 31px}.hero-grid{grid-template-columns:1fr;gap:21px}.copy{padding:0}.eyebrow{font-size:9px;padding:8px 11px}h1{font-size:clamp(34px,8.9vw,44px);margin:17px 0 10px;max-width:530px}h1 br{display:none}.hero-desc{font-size:13px;line-height:1.55;margin-bottom:0;max-width:520px}.mini-features,.visual{display:none}.form-card{padding:25px 20px 20px;border-radius:19px;box-shadow:0 13px 36px rgba(14,48,71,.1)}.form-card h2{font-size:23px}.form-chip{margin-bottom:10px;font-size:10px}.form-intro{font-size:12px;margin:9px 0 17px;line-height:1.6}.lead-form{gap:12px}.field input{height:50px}.submit-btn{min-height:52px;font-size:14px}.form-footer{margin-top:14px;padding-top:14px}.trust-grid{grid-template-columns:repeat(3,1fr);gap:0}.trust-item{padding:15px 6px;display:block;text-align:center}.trust-item+.trust-item{padding-left:6px}.trust-icon{margin:0 auto 7px;width:34px;height:34px;border-radius:9px}.trust-icon svg{width:18px;height:18px}.trust-item b{font-size:14px}.trust-item small{font-size:10px}.models{padding:42px 0 33px}.section-heading{font-size:26px}.section-summary{font-size:12px;margin:8px 0 16px}.models-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.model{padding:12px 10px}.model-left{gap:8px}.model-icon{width:33px;height:33px}.model-icon svg{width:23px;height:23px}.model-title{font-size:12px}.model-sub{font-size:10px}.model-arrow{display:none}.bottom-cta{padding:0 0 34px}.bottom-card{padding:23px 20px;display:block}.bottom-card h2{font-size:19px}.bottom-card button{margin-top:17px;width:100%}.footer{padding:21px 0}.footer-inner{align-items:start}.footer-brand{flex-basis:100%}}
+    @media(max-width:380px){.models-list{grid-template-columns:1fr 1fr}.model-sub{display:none}h1{font-size:33px}.form-card{padding:21px 16px 18px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+<!-- Shanghai Trailer mini landing: Telegram maxfiy kaliti faqat Vercel Environment Variables ichida saqlanadi. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="ico-check" viewBox="0 0 24 24"><path d="m5 12 5 5L20 7" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="ico-phone" viewBox="0 0 24 24"><path d="M6.6 3h3L11 7l-2.1 2a15 15 0 0 0 6.1 6.1L17 13l4 1.4v3c0 1.1-.9 2-2 2A16 16 0 0 1 4.6 5c0-1.1.9-2 2-2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="ico-trailer" viewBox="0 0 48 48"><path d="M5 12h36v20H5zM9 32v5m26-5v5M5 27h36M14 37a4 4 0 1 0 8 0 4 4 0 0 0-8 0Zm15 0a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z" stroke="currentColor" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="ico-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol></svg>
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="logo" href="#top" aria-label="Shanghai Trailer bosh sahifa">
+      <span class="logo-icon"><svg width="26" height="26" viewBox="0 0 48 48"><use href="#ico-trailer"/></svg></span>
+      <span><span class="logo-name">SHANGHAI <b>TRAILER</b></span><span class="logo-sub">PRITSEP VA YARIM TIRKAMALAR</span></span>
+    </a>
+    <div class="top-actions">
+      <a class="phone-link" href="tel:+998950686522" aria-label="Qo‘ng‘iroq qilish: +998 95 068 65 22"><svg width="18" height="18" viewBox="0 0 24 24"><use href="#ico-phone"/></svg><span>+998 95 068 65 22</span></a>
+      <div class="lang-switch" role="group" aria-label="Tilni tanlash"><button class="active" type="button" data-lang="uz" aria-pressed="true">UZ</button><button type="button" data-lang="ru" aria-pressed="false">RU</button></div>
+    </div>
+  </div>
+</header>
+<main id="top">
+  <section class="hero" aria-label="Pritsep uchun so'rov qoldirish">
+    <div class="container hero-grid">
+      <div class="copy">
+        <div class="eyebrow"><span class="dot"></span><span data-i18n="eyebrow">XITOYDAN TO‘G‘RIDAN-TO‘G‘RI YETKAZAMIZ</span></div>
+        <h1 data-i18n-html="headline">Xitoydan <span class="accent">pritsep kerakmi?</span><br> Narxini bizdan bilib oling.</h1>
+        <p class="hero-desc" data-i18n-html="heroDesc">Qanday pritsep kerakligini ayting. <b>Operatorimiz telefon qiladi</b> va sizga mos model, narx hamda yetkazib berish shartlarini tushuntiradi.</p>
+        <div class="mini-features"><span><svg width="15" height="15" viewBox="0 0 24 24"><use href="#ico-check"/></svg><span data-i18n="feat1">Zavoddan buyurtma</span></span><span><svg width="15" height="15" viewBox="0 0 24 24"><use href="#ico-check"/></svg><span data-i18n="feat2">1 yil kafolat</span></span><span><svg width="15" height="15" viewBox="0 0 24 24"><use href="#ico-check"/></svg><span data-i18n="feat3">O‘zbekistonga yetkazish</span></span></div>
+        <div class="visual" aria-hidden="true">
+          <span class="visual-top">SHANGHAI TRAILER / HEAVY DUTY</span>
+          <!-- Mustaqil SVG: hech qanday tashqi fayl kerak emas. -->
+          <svg class="truck-svg" viewBox="0 0 610 215" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs><linearGradient id="bodygrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d8e7ec"/><stop offset="1" stop-color="#718d9d"/></linearGradient><linearGradient id="deckgrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#329e9a"/><stop offset="1" stop-color="#125e6c"/></linearGradient><linearGradient id="cabgrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eff6f7"/><stop offset="1" stop-color="#879eaa"/></linearGradient></defs>
+            <ellipse cx="295" cy="177" rx="272" ry="15" fill="#031c2c" opacity=".5"/>
+            <path d="M100 47h377v90H100z" fill="url(#bodygrad)" stroke="#f2fdff" stroke-width="2"/>
+            <path d="M106 58h365" stroke="#fff" opacity=".5" stroke-width="2"/><path d="M117 67v54m26-54v54m26-54v54m26-54v54m26-54v54m26-54v54m26-54v54m26-54v54m26-54v54m26-54v54m26-54v54m26-54v54m26-54v54" stroke="#648593" stroke-width="2" opacity=".46"/>
+            <path d="M81 136h406v16H81z" fill="url(#deckgrad)" stroke="#2cb2a4" stroke-width="2"/><path d="M86 151h394v10H86z" fill="#0b1724"/><path d="M105 162h340" stroke="#98b3be" stroke-width="3"/>
+            <path d="M477 93h62l24 32v30h-86z" fill="url(#cabgrad)" stroke="#e2f3f7" stroke-width="2"/><path d="M485 101h48l16 22h-64z" fill="#173b50" stroke="#81aabb"/><path d="M477 129h85v26h-85" fill="url(#cabgrad)"/><path d="M549 139h13v9h-13z" fill="#ffd477"/><path d="M518 155h50v9h-50z" fill="#1b3541"/><path d="M492 94h37" stroke="#fff" stroke-width="2" opacity=".7"/>
+            <path d="M25 153h55v9H25z" fill="#1e6a75"/><path d="M61 145v24" stroke="#1ac5af" stroke-width="5"/>
+            <g fill="#182c37" stroke="#c4dce3" stroke-width="3"><circle cx="169" cy="168" r="18"/><circle cx="224" cy="168" r="18"/><circle cx="279" cy="168" r="18"/><circle cx="525" cy="168" r="18"/></g><g fill="#829fad" stroke="#fff" stroke-width="1"><circle cx="169" cy="168" r="8"/><circle cx="224" cy="168" r="8"/><circle cx="279" cy="168" r="8"/><circle cx="525" cy="168" r="8"/></g>
+            <text x="298" y="100" font-family="Arial,sans-serif" font-size="23" font-weight="800" text-anchor="middle" fill="#244a5b" letter-spacing="3">SHANGHAI TRAILER</text><path d="M275 110h48" stroke="#188e88" stroke-width="4"/>
+          </svg>
+          <span class="photo-overlay" data-i18n="visualBadge">BUYURTMA ASOSIDA</span>
+        </div>
+      </div>
+      <aside class="form-card" id="forma" aria-labelledby="formHeading">
+        <div class="form-chip"><span class="spark">✦</span><span data-i18n="formTag">BEPUL NARX MASLAHATI</span></div>
+        <h2 id="formHeading" data-i18n="formHeading">Pritsep narxini bilish uchun ariza qoldiring</h2>
+        <p class="form-intro" data-i18n="formIntro">Ismingiz va raqamingizni kiriting. Operatorimiz qo‘ng‘iroq qilib, barcha savollaringizga javob beradi.</p>
+        <form class="lead-form" id="leadForm" novalidate>
+          <div class="chosen" id="chosenModel" aria-live="polite"><span><span data-i18n="chosenLabel">Tanlangan:</span> <strong id="chosenModelName"></strong></span><button type="button" id="removeModel" data-i18n="clear">O‘chirish</button></div>
+          <div class="field"><label for="leadName" data-i18n="nameLabel">Ismingiz</label><input id="leadName" name="name" type="text" placeholder="Masalan, Aziz" autocomplete="name" minlength="2" maxlength="70" required><div class="field-error" id="nameError" data-i18n="nameError">Ismingizni kiriting.</div></div>
+          <div class="field"><label for="leadPhone" data-i18n="phoneLabel">Telefon raqamingiz</label><input id="leadPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+998 90 123 45 67" maxlength="17" required><div class="field-error" id="phoneError" data-i18n="phoneError">Telefon raqamni to‘liq kiriting.</div></div>
+          <input class="honeypot" type="text" id="contactWebsite" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="submit-btn" id="submitBtn" type="submit"><span data-i18n="send">MENGA QO‘NG‘IROQ QILING</span><svg width="18" height="18" viewBox="0 0 24 24"><use href="#ico-arrow"/></svg></button>
+          <p class="consent" data-i18n="consent">Ariza yuborish orqali operatorimiz siz bilan telefon orqali bog‘lanishiga rozilik bildirasiz.</p>
+          <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+        </form>
+        <div class="form-footer"><svg width="21" height="21" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5.2 3.5 9.5 8 11 4.5-1.5 8-5.8 8-11V5l-8-3Z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m8.5 12 2.3 2.3 4.7-5.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="formFoot">Maslahat bepul. Ariza qoldirish sizni xarid qilishga majbur qilmaydi.</span></div>
+      </aside>
+    </div>
+  </section>
+  <section class="trust" aria-label="Yetkazish va kafolat shartlari">
+    <div class="container trust-grid">
+      <div class="trust-item"><span class="trust-icon"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M3 7h11v11H3zM14 11h4l3 3v4h-7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="7" cy="18" r="2" fill="#eaf8f4" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="18" r="2" fill="#eaf8f4" stroke="currentColor" stroke-width="1.8"/></svg></span><span><b>45–60 <span data-i18n="days">kun</span></b><small data-i18n="delivery">Taxminiy yetkazish muddati</small></span></div>
+      <div class="trust-item"><span class="trust-icon"><svg width="24" height="24" viewBox="0 0 24 24"><path d="m12 2 8 3v6c0 5-3 9-8 11-5-2-8-6-8-11V5l8-3Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8 12 3 3 5-6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span><span><b data-i18n="warranty">1 yil kafolat</b><small data-i18n="warrantyDesc">Shartnoma asosida</small></span></div>
+      <div class="trust-item"><span class="trust-icon"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M6 2v5l3 3-4 4 5 5 4-4 3 3 5-5-5-5-5 5-3-3V2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b data-i18n="service">Toshkentda servis</b><small data-i18n="serviceDesc">Sotuvdan keyingi xizmat</small></span></div>
+    </div>
+  </section>
+  <section class="models" aria-labelledby="modelsTitle">
+    <div class="container">
+      <p class="section-kicker" data-i18n="modelsKick">PRITSEP TURLARI</p>
+      <h2 class="section-heading" id="modelsTitle" data-i18n="modelsTitle">Sizga qaysi pritsep kerak?</h2>
+      <p class="section-summary" data-i18n="modelsDesc">Turini tanlasangiz, operatorimiz aynan shu pritsep bo‘yicha narx va variantlarni tushuntiradi. Tanlash majburiy emas.</p>
+      <div class="models-list" id="modelList">
+        <button class="model" type="button" data-model="bortli" aria-pressed="false"><span class="model-left"><span class="model-icon"><svg width="27" height="27" viewBox="0 0 48 48"><use href="#ico-trailer"/></svg></span><span><span class="model-title" data-i18n="bortli">Bortli pritsep</span><span class="model-sub" data-i18n="bortliDesc">Universal yuklar uchun</span></span></span><svg class="model-arrow" width="17" height="17" viewBox="0 0 24 24"><use href="#ico-arrow"/></svg></button>
+        <button class="model" type="button" data-model="tentli" aria-pressed="false"><span class="model-left"><span class="model-icon"><svg width="27" height="27" viewBox="0 0 48 48"><use href="#ico-trailer"/></svg></span><span><span class="model-title" data-i18n="tentli">Tentli pritsep</span><span class="model-sub" data-i18n="tentliDesc">Yopiq yuk tashish</span></span></span><svg class="model-arrow" width="17" height="17" viewBox="0 0 24 24"><use href="#ico-arrow"/></svg></button>
+        <button class="model" type="button" data-model="lowbed" aria-pressed="false"><span class="model-left"><span class="model-icon"><svg width="27" height="27" viewBox="0 0 48 48"><use href="#ico-trailer"/></svg></span><span><span class="model-title" data-i18n="lowbed">Low-bed pritsep</span><span class="model-sub" data-i18n="lowbedDesc">Og‘ir texnika uchun</span></span></span><svg class="model-arrow" width="17" height="17" viewBox="0 0 24 24"><use href="#ico-arrow"/></svg></button>
+        <button class="model" type="button" data-model="avtovoz" aria-pressed="false"><span class="model-left"><span class="model-icon"><svg width="27" height="27" viewBox="0 0 48 48"><use href="#ico-trailer"/></svg></span><span><span class="model-title" data-i18n="avtovoz">Avtovoz</span><span class="model-sub" data-i18n="avtovozDesc">Avtomobil tashish</span></span></span><svg class="model-arrow" width="17" height="17" viewBox="0 0 24 24"><use href="#ico-arrow"/></svg></button>
+        <button class="model" type="button" data-model="samosval" aria-pressed="false"><span class="model-left"><span class="model-icon"><svg width="27" height="27" viewBox="0 0 48 48"><use href="#ico-trailer"/></svg></span><span><span class="model-title" data-i18n="samosval">Samosval pritsep</span><span class="model-sub" data-i18n="samosvalDesc">Sochiluvchan yuklar</span></span></span><svg class="model-arrow" width="17" height="17" viewBox="0 0 24 24"><use href="#ico-arrow"/></svg></button>
+        <button class="model" type="button" data-model="sisterna" aria-pressed="false"><span class="model-left"><span class="model-icon"><svg width="27" height="27" viewBox="0 0 48 48"><use href="#ico-trailer"/></svg></span><span><span class="model-title" data-i18n="sisterna">Sisterna pritsep</span><span class="model-sub" data-i18n="sisternaDesc">Suyuqlik tashish</span></span></span><svg class="model-arrow" width="17" height="17" viewBox="0 0 24 24"><use href="#ico-arrow"/></svg></button>
+      </div>
+    </div>
+  </section>
+  <section class="bottom-cta" aria-label="Ariza qoldirish">
+    <div class="container"><div class="bottom-card"><div><h2 data-i18n="lastTitle">Pritsep tanlashda savolingiz bormi?</h2><p data-i18n="lastDesc">Raqamingizni qoldiring — operator sizga telefon qiladi.</p></div><button type="button" class="scroll-to-form" data-i18n="lastBtn">ARIZA QOLDIRISH →</button></div></div>
+  </section>
+</main>
+<footer class="footer"><div class="container footer-inner"><div class="footer-brand">SHANGHAI TRAILER</div><div class="footer-detail" data-i18n="address">Toshkent, Yakkasaroy tumani, Shota Rustaveli ko‘chasi, 81-uy</div><a href="tel:+998950686522" class="footer-call">+998 95 068 65 22</a></div></footer>
+<button type="button" id="mobileFloat" class="float-cta scroll-to-form" data-i18n="floatCta">NARXINI BILISH — ARIZA QOLDIRISH</button>
+<script>
+  'use strict';
+  // Telegram tokeni HTML ichida YO'Q. Vercel /api/lead maxfiy ravishda yuboradi.
+  const LEAD_CONFIG = { endpoint: '/api/lead' };
+
+  const texts = {
+    uz: {
+      eyebrow:'XITOYDAN TO‘G‘RIDAN-TO‘G‘RI YETKAZAMIZ',
+      headline:'Xitoydan <span class="accent">pritsep kerakmi?</span><br> Narxini bizdan bilib oling.',
+      heroDesc:'Qanday pritsep kerakligini ayting. <b>Operatorimiz telefon qiladi</b> va sizga mos model, narx hamda yetkazib berish shartlarini tushuntiradi.',
+      feat1:'Zavoddan buyurtma',feat2:'1 yil kafolat',feat3:'O‘zbekistonga yetkazish',visualBadge:'BUYURTMA ASOSIDA',
+      formTag:'BEPUL NARX MASLAHATI',formHeading:'Pritsep narxini bilish uchun ariza qoldiring',formIntro:'Ismingiz va raqamingizni kiriting. Operatorimiz qo‘ng‘iroq qilib, barcha savollaringizga javob beradi.',
+      chosenLabel:'Tanlangan:',clear:'O‘chirish',nameLabel:'Ismingiz',phoneLabel:'Telefon raqamingiz',nameError:'Ismingizni kiriting.',phoneError:'Telefon raqamni to‘liq kiriting.',send:'MENGA QO‘NG‘IROQ QILING',sending:'YUBORILMOQDA...',consent:'Ariza yuborish orqali operatorimiz siz bilan telefon orqali bog‘lanishiga rozilik bildirasiz.',formFoot:'Maslahat bepul. Ariza qoldirish sizni xarid qilishga majbur qilmaydi.',
+      days:'kun',delivery:'Taxminiy yetkazish muddati',warranty:'1 yil kafolat',warrantyDesc:'Shartnoma asosida',service:'Toshkentda servis',serviceDesc:'Sotuvdan keyingi xizmat',
+      modelsKick:'PRITSEP TURLARI',modelsTitle:'Sizga qaysi pritsep kerak?',modelsDesc:'Turini tanlasangiz, operatorimiz aynan shu pritsep bo‘yicha narx va variantlarni tushuntiradi. Tanlash majburiy emas.',
+      bortli:'Bortli pritsep',bortliDesc:'Universal yuklar uchun',tentli:'Tentli pritsep',tentliDesc:'Yopiq yuk tashish',lowbed:'Low-bed pritsep',lowbedDesc:'Og‘ir texnika uchun',avtovoz:'Avtovoz',avtovozDesc:'Avtomobil tashish',samosval:'Samosval pritsep',samosvalDesc:'Sochiluvchan yuklar',sisterna:'Sisterna pritsep',sisternaDesc:'Suyuqlik tashish',
+      lastTitle:'Pritsep tanlashda savolingiz bormi?',lastDesc:'Raqamingizni qoldiring — operator sizga telefon qiladi.',lastBtn:'ARIZA QOLDIRISH →',address:'Toshkent, Yakkasaroy tumani, Shota Rustaveli ko‘chasi, 81-uy',floatCta:'NARXINI BILISH — ARIZA QOLDIRISH',
+      thanks:'Arizangiz yuborildi! Operatorimiz ish vaqtida sizga qo‘ng‘iroq qiladi.',error:'Arizani yuborib bo‘lmadi. Iltimos, qayta urinib ko‘ring yoki telefon orqali bog‘laning.',notSetup:'Telegramga yuborish hali ulanmagan. Sayt egasi bot yoki xavfsiz webhook sozlashi kerak. Hozir telefon orqali bog‘lanishingiz mumkin.',
+      namePlaceholder:'Masalan, Aziz'
+    },
+    ru: {
+      eyebrow:'ДОСТАВЛЯЕМ НАПРЯМУЮ ИЗ КИТАЯ',
+      headline:'Нужен <span class="accent">полуприцеп из Китая?</span><br> Уточните стоимость у нас.',
+      heroDesc:'Расскажите, какой полуприцеп вам нужен. <b>Наш оператор перезвонит</b> и расскажет о подходящей модели, цене и сроках доставки.',
+      feat1:'Заказ с завода',feat2:'Гарантия 1 год',feat3:'Доставка в Узбекистан',visualBadge:'ПОД ЗАКАЗ',
+      formTag:'БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ',formHeading:'Оставьте заявку, чтобы узнать цену полуприцепа',formIntro:'Укажите имя и номер телефона. Наш оператор перезвонит и ответит на ваши вопросы.',
+      chosenLabel:'Вы выбрали:',clear:'Убрать',nameLabel:'Ваше имя',phoneLabel:'Номер телефона',nameError:'Введите ваше имя.',phoneError:'Введите полный номер телефона.',send:'ПЕРЕЗВОНИТЕ МНЕ',sending:'ОТПРАВЛЯЕМ...',consent:'Отправляя заявку, вы соглашаетесь на телефонный звонок нашего оператора.',formFoot:'Консультация бесплатная. Заявка не обязывает к покупке.',
+      days:'дней',delivery:'Ориентировочный срок доставки',warranty:'Гарантия 1 год',warrantyDesc:'По договору',service:'Сервис в Ташкенте',serviceDesc:'Послепродажное обслуживание',
+      modelsKick:'ВИДЫ ПОЛУПРИЦЕПОВ',modelsTitle:'Какой полуприцеп вам нужен?',modelsDesc:'Выберите тип, и наш оператор расскажет о доступных комплектациях и ценах. Это необязательно.',
+      bortli:'Бортовой',bortliDesc:'Для обычных грузов',tentli:'Тентовый',tentliDesc:'Закрытая перевозка',lowbed:'Низкорамный',lowbedDesc:'Для спецтехники',avtovoz:'Автовоз',avtovozDesc:'Для автомобилей',samosval:'Самосвальный',samosvalDesc:'Для сыпучих грузов',sisterna:'Цистерна',sisternaDesc:'Для жидкостей',
+      lastTitle:'Остались вопросы о полуприцепе?',lastDesc:'Оставьте номер — наш оператор вам перезвонит.',lastBtn:'ОСТАВИТЬ ЗАЯВКУ →',address:'Ташкент, Яккасарайский район, ул. Шота Руставели, 81',floatCta:'УЗНАТЬ ЦЕНУ — ОСТАВИТЬ ЗАЯВКУ',
+      thanks:'Ваша заявка отправлена! Оператор свяжется с вами в рабочее время.',error:'Не удалось отправить заявку. Пожалуйста, попробуйте ещё раз или позвоните нам.',notSetup:'Отправка в Telegram пока не настроена. Владелец сайта должен подключить бота или защищённый webhook. Пока можно позвонить по телефону.',namePlaceholder:'Например, Азиз'
+    }
+  };
+  let lang='uz', selectedModel='';
+  const $ = id => document.getElementById(id);
+  function t(key){return texts[lang][key]||key;}
+  function setLang(next){
+    if(!texts[next])return;
+    lang=next;
+    document.documentElement.lang=next;
+    document.querySelectorAll('[data-i18n]').forEach(el=>{el.textContent=t(el.dataset.i18n)});
+    document.querySelectorAll('[data-i18n-html]').forEach(el=>{el.innerHTML=t(el.dataset.i18nHtml)});
+    document.querySelectorAll('[data-lang]').forEach(btn=>{let on=btn.dataset.lang===next;btn.classList.toggle('active',on);btn.setAttribute('aria-pressed',String(on))});
+    $('leadName').placeholder=t('namePlaceholder');
+    updateChosen();
+    document.querySelectorAll('.field-error').forEach(el=>el.classList.remove('show'));
+    if(!$('formStatus').classList.contains('show'))$('formStatus').textContent='';
+  }
+  document.querySelectorAll('[data-lang]').forEach(btn=>btn.addEventListener('click',()=>setLang(btn.dataset.lang)));
+  function formatPhone(raw){
+    let digits=String(raw).replace(/\D/g,'');
+    if(digits.startsWith('998'))digits=digits.slice(3);
+    else if(digits.startsWith('8') && digits.length===10)digits=digits.slice(1);
+    digits=digits.slice(0,9);
+    if(!digits)return '+998 ';
+    let out='+998 '+digits.slice(0,2);
+    if(digits.length>2)out+=' '+digits.slice(2,5);
+    if(digits.length>5)out+=' '+digits.slice(5,7);
+    if(digits.length>7)out+=' '+digits.slice(7,9);
+    return out;
+  }
+  $('leadPhone').addEventListener('focus',e=>{if(!e.target.value)e.target.value='+998 '});
+  $('leadPhone').addEventListener('input',e=>{let cursor=e.target.selectionStart;let value=e.target.value;e.target.value=formatPhone(value);if(cursor===value.length)e.target.setSelectionRange(e.target.value.length,e.target.value.length);clearInvalid('leadPhone','phoneError')});
+  $('leadPhone').addEventListener('blur',e=>{if(e.target.value==='+998 ')e.target.value=''});
+  $('leadName').addEventListener('input',()=>clearInvalid('leadName','nameError'));
+  function clearInvalid(field,error){$(field).removeAttribute('aria-invalid');$(error).classList.remove('show')}
+  function showInvalid(field,error){$(field).setAttribute('aria-invalid','true');$(error).classList.add('show');$(field).focus()}
+  function updateChosen(){
+    const bar=$('chosenModel');
+    bar.classList.toggle('visible',!!selectedModel);
+    $('chosenModelName').textContent=selectedModel?t(selectedModel):'';
+    document.querySelectorAll('[data-model]').forEach(el=>{let on=el.dataset.model===selectedModel;el.classList.toggle('selected',on);el.setAttribute('aria-pressed',String(on))});
+  }
+  function goForm(){ $('forma').scrollIntoView({behavior:'smooth',block:'center'}); setTimeout(()=>{if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)$('leadName').focus({preventScroll:true})},350); }
+  document.querySelectorAll('[data-model]').forEach(el=>el.addEventListener('click',()=>{selectedModel=el.dataset.model;updateChosen();goForm()}));
+  $('removeModel').addEventListener('click',()=>{selectedModel='';updateChosen()});
+  document.querySelectorAll('.scroll-to-form').forEach(el=>el.addEventListener('click',goForm));
+  const floating=$('mobileFloat');
+  if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{let visible=entries[0].isIntersecting;floating.classList.toggle('visible',!visible && window.scrollY>300 && window.matchMedia('(max-width:740px)').matches)},{threshold:.15});observer.observe($('forma'))}
+  window.addEventListener('resize',()=>{if(window.innerWidth>740)floating.classList.remove('visible')},{passive:true});
+  function setStatus(text,kind){let el=$('formStatus');el.textContent=text;el.className='form-status show '+kind}
+  function buildLead(name,phone){
+    const qs=new URLSearchParams(window.location.search);
+    return {name,phone,model:selectedModel?t(selectedModel):'Kiritilmagan',model_key:selectedModel||'',language:lang,source:'Shanghai Trailer mini landing',page:window.location.href,utm_source:qs.get('utm_source')||'',utm_medium:qs.get('utm_medium')||'',utm_campaign:qs.get('utm_campaign')||'',utm_content:qs.get('utm_content')||'',utm_term:qs.get('utm_term')||'',submitted_at:new Date().toISOString()};
+  }
+  async function sendLead(d){
+    // Bir xil domen orqali Vercel Serverless Function'ga yuboramiz.
+    // Token va Telegram guruh ID hech qachon brauzerga berilmaydi.
+    const r=await fetch(LEAD_CONFIG.endpoint,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({...d,website:$('contactWebsite').value}),
+      credentials:'same-origin'
+    });
+    let result;
+    try{result=await r.json()}catch(_){throw new Error('BAD_RESPONSE')}
+    if(r.status===503 && result.code==='NOT_CONFIGURED')throw new Error('NOT_CONFIGURED');
+    if(!r.ok || result.ok!==true)throw new Error(result.code||'SEND_FAILED');
+    return true;
+  }
+  let sending=false;
+  $('leadForm').addEventListener('submit',async e=>{
+    e.preventDefault();
+    if(sending)return;
+    // Botlar uchun yashirin honeypot; hech kimga soxta muvaffaqiyat ko‘rsatmaymiz.
+    if($('contactWebsite').value.trim())return;
+    const name=$('leadName').value.trim().replace(/\s+/g,' ');
+    const phone=$('leadPhone').value.trim();
+    if(name.length<2){showInvalid('leadName','nameError');return}
+    if(!/^\+998 \d{2} \d{3} \d{2} \d{2}$/.test(phone)){showInvalid('leadPhone','phoneError');return}
+    sending=true;$('submitBtn').disabled=true;$('submitBtn').querySelector('span').textContent=t('sending');
+    $('formStatus').className='form-status';
+    try{
+      await sendLead(buildLead(name,phone));
+      setStatus(t('thanks'),'ok');
+      $('leadForm').reset(); selectedModel='';updateChosen();
+      try{if(typeof window.fbq==='function')window.fbq('track','Lead')}catch(_){}
+      try{if(Array.isArray(window.dataLayer))window.dataLayer.push({event:'lead_submitted',form_name:'shanghai_trailer'})}catch(_){}
+    }catch(err){
+      // PII konsolga yozilmaydi; yuborish amalga oshmagan bo‘lsa, success chiqmaydi.
+      setStatus(err.message==='NOT_CONFIGURED'?t('notSetup'):t('error'),'error');
+    }finally{sending=false;$('submitBtn').disabled=false;$('submitBtn').querySelector('span').textContent=t('send')}
+  });
+</script>
+</body>
+</html>
